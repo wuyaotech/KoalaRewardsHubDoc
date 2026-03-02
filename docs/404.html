@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>重定向中...</title>
+  <script>
+    // 将当前路径转为 Docsify hash 路由后跳转
+    var base = location.pathname.substring(0, location.pathname.lastIndexOf('/') + 1);
+    var path = location.pathname.replace(base, '').replace(/^\//, '') || 'README';
+    if (path.endsWith('.html')) path = path.slice(0, -5);
+    if (path === 'index' || path === '404') path = 'README';
+    location.replace(base + '#/' + path);
+  </script>
+  <meta http-equiv="refresh" content="0;url=./#/" />
+</head>
+<body>
+  <p>正在跳转到 <a href="./#/">文档首页</a>...</p>
+</body>
+</html>
