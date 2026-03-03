@@ -1,6 +1,10 @@
 - [首页](/)
 - [模块总览](00-模块拆分.md)
 
+- **在线 Demo**
+  - [H5 小程序 Demo](/h5-demo/)
+  - [PC 管理后台 Demo](/pc-demo/)
+
 - **业务模块**
   - [M01 用户与认证](modules/M01-用户与认证.md)
   - [M02 会员信息](modules/M02-会员信息.md)
@@ -17,6 +21,9 @@
 - **页面设计**
   - [页面总览](pages/README.md)
   - 小程序
+    - [页面跳转关系](pages/mini-program/00-页面跳转关系.md)
+    - [页面可达性测试报告](pages/mini-program/00-页面可达性测试报告.md)
+    - [M00 H5首页](pages/mini-program/M00-H5首页.md)
     - [M01 微信授权登录页](pages/mini-program/M01-微信授权登录页.md)
     - [M02 手机号绑定页](pages/mini-program/M02-手机号绑定页.md)
     - [M03 个人中心页](pages/mini-program/M03-个人中心页.md)

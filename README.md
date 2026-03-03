@@ -1,6 +1,6 @@
 # KoalaRewardsHub 需求文档
 
-文档站点基于 [Docsify](https://docsify.js.org/)，部署在 **GitHub Pages**。
+文档站点基于 [Docsify](https://docsify.js.org/)，部署在 **GitHub Pages**。H5 与 PC 的静态 Demo 会一并部署在 `docs/` 下（`h5-demo/`、`pc-demo/`）。
 
 - 在线地址（部署后）：`https://<你的用户名>.github.io/KoalaRewardsHubDoc/`
 - 本地预览：在项目根目录执行 `npx docsify serve docs`，浏览器打开 http://localhost:3000
@@ -31,3 +31,13 @@
 - **`docs/404.html`**：自定义 404，错误链接会跳回文档首页
 
 无需再改仓库或 GitHub 其它设置，按上面选好 Source = 分支 + `/docs` 即可。
+
+### 发布前打包 Demo（可选）
+
+在仓库根目录执行：
+
+```bash
+npm run build:docs
+```
+
+会先构建 `h5-demo` 和 `pc-demo`，再把产物复制到 `docs/h5-demo/` 和 `docs/pc-demo/`。提交并推送后，文档站里即可通过侧栏或首页链接打开两个 Demo。
