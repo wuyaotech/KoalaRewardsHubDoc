@@ -1,5 +1,6 @@
 - [首页](/)
 - [模块总览](00-模块拆分.md)
+- [项目排期](项目排期.md)
 
 - **在线 Demo**
   - [H5 小程序 Demo](/h5-demo/)
@@ -22,7 +23,6 @@
   - [页面总览](pages/README.md)
   - 小程序
     - [页面跳转关系](pages/mini-program/00-页面跳转关系.md)
-    - [页面可达性测试报告](pages/mini-program/00-页面可达性测试报告.md)
     - [M00 H5首页](pages/mini-program/M00-H5首页.md)
     - [M01 微信授权登录页](pages/mini-program/M01-微信授权登录页.md)
     - [M02 手机号绑定页](pages/mini-program/M02-手机号绑定页.md)
