@@ -18,6 +18,7 @@
   - [M09 消息通知](modules/M09-消息通知.md)
   - [M10 数据统计](modules/M10-数据统计.md)
   - [M11 系统管理](modules/M11-系统管理.md)
+  - [M12 Banner管理](modules/M12-Banner管理.md)
 
 - **页面设计**
   - [页面总览](pages/README.md)
