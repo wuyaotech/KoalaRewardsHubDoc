@@ -13,7 +13,7 @@
   - [M04 会员等级](modules/M04-会员等级.md)
   - [M05 商品管理](modules/M05-商品管理.md)
   - [M06 兑换交易（含核销）](modules/M06-兑换交易.md)
-  - [M08 优惠券](modules/M08-优惠券.md)
+  - ~~M08 优惠券~~ 已合并至 M05 商品管理
   - [M09 消息通知](modules/M09-消息通知.md)
   - [M10 数据统计](modules/M10-数据统计.md)
   - [M11 系统管理](modules/M11-系统管理.md)

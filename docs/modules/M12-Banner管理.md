@@ -53,26 +53,6 @@ model Banner {
 
 ---
 
-## 接口设计
-
-### PC 后台接口（需要管理员权限）
-
-| 接口 | 方法 | 路径 | 说明 |
-|------|------|------|------|
-| Banner 列表 | POST | `/admin/banners/list` | 分页查询，含上架/下架状态 |
-| 创建 Banner | POST | `/admin/banners/create` | 上传图片后创建 |
-| 编辑 Banner | POST | `/admin/banners/update` | 修改标题、图片、链接、排序、状态 |
-| 删除 Banner | POST | `/admin/banners/delete` | 软删除 |
-| 切换上下架 | POST | `/admin/banners/toggle-status` | 快捷切换上下架状态 |
-
-### 小程序端接口（无需登录）
-
-| 接口 | 方法 | 路径 | 说明 |
-|------|------|------|------|
-| 获取生效 Banner | POST | `/banners/active-list` | 返回所有上架 Banner，按权重排序 |
-
----
-
 ## 关联页面
 
 | 页面 | 端 | 说明 |
